@@ -1,0 +1,122 @@
+h1,
+h2,
+h3 {
+    font-size: 40px;
+    font-weight: normal;
+    color: steelblue;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+}
+
+p.first {
+    font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+.first > span {
+    font-family: 'Poppins', sans-serif;
+}
+
+p.second {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+}
+
+.second > span {
+    color: aquamarine;
+}
+
+p.third {
+    width: 40%;
+}
+
+.third > span {
+    display: block;
+}
+
+p.fourth {
+    border: 4px solid black;
+    font-size: 30px;
+    color: cadetblue;
+}
+
+.fourth > span {
+    font-size: 20px;
+}
+
+p.fifth {
+    font-style: italic;
+}
+
+.fifth > span {
+    font-weight: bold;
+}
+
+p.sixth {
+    text-decoration: underline;
+}
+
+.sixth > span {
+    display: inline-block;
+    text-decoration: line-through;
+}
+
+p.seventh {
+    line-height: 26px;
+}
+
+.seventh > span {
+    text-transform: uppercase;
+}
+
+p.eight {
+    text-indent: 30px;
+}
+
+.eight > span {
+    color: yellow;
+}
+
+p.ninth {
+    background-color: lightyellow;
+}
+
+.ninth > span {
+    background-color: white;
+}
+
+p.tenth {
+    font-family: "Courier New", Courier, monospace;
+    color: cadetblue;
+    font-size: 30px;
+}
+
+.tenth > span {
+    text-decoration: underline;
+}
+
+div {
+    width: 50%;
+    height: 200px;
+}
+
+.div1 {
+    background-color: paleturquoise;
+}
+
+.div2 {
+    background-color: floralwhite;
+}
+
+.div3 {
+    background-color: lightcoral;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.div4 {
+    background-color: lightcyan;
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
